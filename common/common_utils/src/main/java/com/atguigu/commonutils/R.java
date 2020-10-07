@@ -6,6 +6,7 @@ import lombok.Data;
 import java.util.HashMap;
 import java.util.Map;
 
+//统一返回结果的类
 @Data
 public class R {
 
@@ -66,5 +67,4 @@ public class R {
         this.setData(map);
         return this;
     }
-
 }
